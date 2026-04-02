@@ -61,6 +61,9 @@
     "react-native-video": "^6.9.0"
   },
   "devDependencies": {
+    "@react-native-community/cli": "^15.0.0",
+    "@react-native-community/cli-platform-android": "^15.0.0",
+    "@react-native-community/cli-platform-ios": "^15.0.0",
     "@babel/core": "^7.25.0",
     "@babel/preset-env": "^7.25.0",
     "@babel/runtime": "^7.25.0",
