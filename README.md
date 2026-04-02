@@ -138,16 +138,19 @@ npm run ios
 
 | Paket | Kegunaan |
 |-------|----------|
-| `react-native` 0.73 | Framework utama |
-| `@react-navigation/native` | Navigasi |
-| `@react-navigation/bottom-tabs` | Tab bar navigasi |
-| `@react-navigation/native-stack` | Stack navigator |
+| `react-native` 0.81 | Framework utama (New Architecture default) |
+| `react` 19.0.0 | UI library |
+| `@react-navigation/native` ^7 | Navigasi |
+| `@react-navigation/bottom-tabs` ^7 | Tab bar navigasi |
+| `@react-navigation/native-stack` ^7 | Stack navigator |
 | `react-native-chart-kit` | Grafik aktivitas |
 | `react-native-svg` | Dependensi chart |
 | `react-native-vector-icons` | Icon set (MaterialCommunityIcons) |
-| `react-native-reanimated` | Animasi performa tinggi |
-| `react-native-gesture-handler` | Gesture handler |
-| `react-native-safe-area-context` | Safe area |
-| `@react-native-async-storage/async-storage` | Persistensi session |
+| `react-native-reanimated` ^3.17 | Animasi performa tinggi |
+| `react-native-gesture-handler` ^2.21 | Gesture handler |
+| `react-native-screens` ^4 | Native screen management |
+| `react-native-safe-area-context` ^5 | Safe area |
+| `@react-native-async-storage/async-storage` ^2 | Persistensi session |
+| `@react-native-community/slider` | Zoom slider kamera |
 | `react-native-linear-gradient` | Gradien UI |
-| `react-native-video` | Video player CCTV |
+| `react-native-video` ^6.9 | Video player CCTV |

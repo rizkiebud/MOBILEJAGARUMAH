@@ -6,13 +6,13 @@ import {
   ScrollView,
   TouchableOpacity,
   Switch,
-  Slider,
   FlatList,
   StatusBar,
   Platform,
   Dimensions,
   Alert,
 } from 'react-native';
+import Slider from '@react-native-community/slider';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import {useApp} from '../../context/AppContext';
 import StatusBadge from '../../components/common/StatusBadge';
