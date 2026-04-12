@@ -18,8 +18,7 @@ class MainApplication : Application(), ReactApplication {
         object : DefaultReactNativeHost(this) {
             override fun getPackages(): List<ReactPackage> =
                 PackageList(this).packages.apply {
-                    // Auto-linking sudah menangani semua package.
-                    // Tambahkan package custom di sini jika diperlukan.
+                    // Paket tambahan yang tidak di-autolink bisa ditambahkan di sini
                 }
 
             override fun getJSMainModuleName(): String = "index"
@@ -37,7 +36,6 @@ class MainApplication : Application(), ReactApplication {
         super.onCreate()
         SoLoader.init(this, OpenSourceMergedSoMapping)
         if (BuildConfig.IS_NEW_ARCHITECTURE_ENABLED) {
-            // Muat entry point New Architecture (Fabric + TurboModules)
             load()
         }
     }
